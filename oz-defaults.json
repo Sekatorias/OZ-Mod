@@ -1,0 +1,44 @@
+{
+  "zoneSearch": {
+    "candidateSpacing": 6500,
+    "maxCandidates": 24,
+    "samplesPerAxis": 5,
+    "candidatesPerTick": 1,
+    "waterThreshold": 0.30,
+    "mountainThreshold": 0.30,
+    "mixedThreshold": 0.20
+  },
+  "match": {
+    "finalStartMinutes": 18,
+    "shrinkMinutes": 24,
+    "defaultArenaSize": 1008,
+    "defaultFinalSize": 112,
+    "centerPressureStartMinutes": 18,
+    "centerPressureEndMinutes": 42,
+    "glowStartMinutes": 30,
+    "glowEndMinutes": 42,
+    "overtimeStartMinutes": 42,
+    "revealAllMinutes": 45,
+    "suddenDeathMinutes": 48,
+    "overtimeBorderSize": 48,
+    "suddenDeathBorderSize": 24,
+    "overtimeShrinkMinutes": 4
+  },
+  "pressure": {
+    "enabled": true,
+    "startMinute": 18,
+    "fullStrengthMinute": 42,
+    "skyClearanceStart": 64,
+    "skyClearanceEnd": 20,
+    "depthClearanceStart": 64,
+    "depthClearanceEnd": 24,
+    "warningSeconds": 3,
+    "damageAfterSeconds": 6,
+    "damagePerSecond": 2.0
+  },
+  "futureArenaGeneration": {
+    "presetZonesEnabled": false,
+    "structureRulesEnabled": false,
+    "note": "Reserved for template-zone generation and registry-based vanilla/modded structure requirements."
+  }
+}

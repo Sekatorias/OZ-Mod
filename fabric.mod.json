@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "oz",
+  "version": "${version}",
+  "name": "OZ | Origins Zaruba",
+  "description": "Server-side OZ match controller for Minecraft 1.20.1. Replaces the expensive datapack arena search and border math with Java while retaining the proven OZ gameplay resources.",
+  "authors": ["Kires"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["dev.oz.zaruba.OzMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "origins": "*"
+  },
+  "suggests": {}
+}

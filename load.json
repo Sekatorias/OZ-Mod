@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "oz:create_scoreboards",
+    "oz:create_teams",
+    "oz:create_bossbars",
+    "oz:create_storage",
+    "oz:load"
+  ]
+}

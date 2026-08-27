@@ -1,0 +1,17 @@
+OZ MOD 1.20.1 v0.1.1 — КАК ПОЛУЧИТЬ JAR
+
+Самый простой способ на Windows:
+1. Установи JDK 17, если его ещё нет.
+2. Распакуй весь этот архив в обычную папку.
+3. Запусти BUILD_JAR_WINDOWS.cmd.
+4. Скрипт сам скачает Gradle 8.7, Fabric/Yarn зависимости и соберёт мод.
+5. Готовый файл будет в build\libs\oz-origins-zaruba-0.1.1.jar
+   Не используй файл с окончанием -sources.jar.
+
+Для сборки нужен интернет: Gradle/Loom скачивает Minecraft, Yarn, Fabric Loader и Fabric API.
+
+GitHub Actions:
+- Залей СОДЕРЖИМОЕ этой папки в корень GitHub-репозитория.
+- Workflow уже находится в .github/workflows/build.yml.
+- После push открой Actions -> Build OZ Fabric 1.20.1.
+- Внизу успешного run скачай artifact oz-origins-zaruba-1.20.1.
